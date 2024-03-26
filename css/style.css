@@ -1,14 +1,17 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .hero-section-index {
-    background-color: aqua;
-    
+  background-color: aqua;
 }
 .div-index1 {
-
+  
+ background-image: url(/images/icegif-543.gif);
+height: 600px;
+background-size: cover;
 }
-bod
+h1 {
+    color: aliceblue;
 }
