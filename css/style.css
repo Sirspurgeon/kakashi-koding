@@ -1,8 +1,17 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-    background-color: aqua;
+.hero-section-index {
+  background-color: aqua;
+}
+.div-index1 {
+  
+ background-image: url(/images/icegif-543.gif);
+height: 600px;
+background-size: cover;
+}
+h1 {
+    color: aliceblue;
 }
