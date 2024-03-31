@@ -1,5 +1,19 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* start of index page css  */
+.hero-section-index {
+  background-color: aqua;
+}
+.div-index1 {
+  
+ background-image: url(/images/icegif-543.gif);
+height: 600px;
+background-size: cover;
+}
+h1 {
+    color: aliceblue;
+}
+/* end of index page css */
