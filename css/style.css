@@ -9,11 +9,17 @@
 }
 .div-index1 {
   
- background-image: url(/images/icegif-543.gif);
+ background-image: url();
 height: 600px;
 background-size: cover;
 }
 h1 {
     color: aliceblue;
+}
+.flex-container {
+  
+}
+li {
+  display: inline;
 }
 /* end of index page css */
