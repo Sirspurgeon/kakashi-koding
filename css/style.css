@@ -28,7 +28,7 @@ h1 {
 }
 .portheader {
   margin: 7%;
-  background-image: url(../images/yellow-pink-blue.jpg);
+  background-image: url(../images/pinkyellowblue.png);
   background-position: relative;
   background-size: cover;
 }
@@ -82,8 +82,8 @@ h1 {
   color: blue;
   margin: auto;
   width: 75%;
-  border: 17px groove blue;
-  padding: 10px;
+  border: 15px groove ;
+  padding: 20px;
 }
 
 /* end of projects css */
