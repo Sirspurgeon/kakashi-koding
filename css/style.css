@@ -17,9 +17,15 @@ h1 {
     color: aliceblue;
 }
 .flex-container {
-  
+  display: flex;
+  justify-content: space-between;
+
 }
 li {
   display: inline;
+}
+.flex-container > div {
+width: 100px;
+margin: 100px;
 }
 /* end of index page css */
