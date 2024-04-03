@@ -5,16 +5,27 @@
 }
 /* start of index page css  */
 .hero-section-index {
-  background-color: aqua;
+ background-image: url(/images/astreya-company-timeline-2002r@2x-1280x960.png);
+ background-size: contain;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 500px;
+ 
 }
-.div-index1 {
-  
- background-image: url();
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
 height: 600px;
 background-size: cover;
 }
 h1 {
-    color: aliceblue;
+  /* text-align: center; */
 }
 .flex-container {
   display: flex;
