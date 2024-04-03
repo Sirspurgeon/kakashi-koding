@@ -5,11 +5,10 @@
 }
 /* start of index page css  */
 .header-content {
-  background-image: url(/images/astreya-company-timeline-2002r@2x-1280x960.png),
-    url(/images/kkoK4V.gif);
-  background-size: 500px, cover;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 847px, cover;
+  /* background-image: url(/images/astreya-company-timeline-2002r@2x-1280x960.png),
+    url(/images/kkoK4V.gif); */
+  background-image: url("https://st.hzcdn.com/simgs/pictures/home-offices/updated-modern-jewel-box-kandw-audio-img~1fd18fb202f67a06_14-5252-1-69fbdd1.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 
   background-position: center, top;
@@ -17,17 +16,19 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-right: -15px;
   margin-left: -15px;
+  color: aliceblue;
+  
 }
 
 .container {
-  height: 600px;
-  background-size: cover;
+  width: 100%;
+ padding: 40px;
 }
 h1 {
-  /* text-align: center; */
+  text-align: center;
 }
 .flex-container {
   display: flex;
@@ -39,6 +40,17 @@ li {
 .flex-container > div {
   width: 100px;
   margin: 100px;
+}
+.div1-home {
+  margin-top: 450px;
+  
+}
+.div2-home 
+{
+  margin-top: 250px;
+}
+.span-home {
+  text-align: center;
 }
 /* end of index page css */
 /* end of index page css */
