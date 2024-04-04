@@ -20,12 +20,11 @@
   margin-right: -15px;
   margin-left: -15px;
   color: aliceblue;
-  
 }
 
 .container {
   width: 100%;
- padding: 40px;
+  padding: 40px;
 }
 h1 {
   text-align: center;
@@ -43,14 +42,12 @@ li {
 }
 .div1-home {
   margin-top: 450px;
-  
 }
-.div2-home 
-{
+.div2-home {
   margin-top: 250px;
 }
 .span-home {
-margin-left: 251px;
+  margin-left: 251px;
 }
 .button-home {
   border: 1px solid blue;
