@@ -1,4 +1,9 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 @import url(../css/project.css);
+
+
+
 * {
   
  
@@ -8,16 +13,64 @@
 
 }
 /* start of index page css  */
-.hero-section-index {
-  background-color: aqua;
+.header-content {
+  /* background-image: url(/images/astreya-company-timeline-2002r@2x-1280x960.png),
+    url(/images/kkoK4V.gif); */
+  background-image: url("https://st.hzcdn.com/simgs/pictures/home-offices/updated-modern-jewel-box-kandw-audio-img~1fd18fb202f67a06_14-5252-1-69fbdd1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center, top;
 }
-.div-index1 {
-  
- background-image: url(/images/icegif-543.gif);
-height: 600px;
-background-size: cover;
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-right: -15px;
+  margin-left: -15px;
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  padding: 40px;
 }
 h1 {
-    color: aliceblue;
+  text-align: center;
+}
+
+/* end of index page css */
+=======
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline;
+}
+.flex-container > div {
+  width: 100px;
+  margin: 100px;
+}
+.div1-home {
+  margin-top: 450px;
+}
+.div2-home {
+  margin-top: 250px;
+}
+.span-home {
+  margin-left: 251px;
+}
+.button-home {
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
 }
 /* end of index page css */
+/* end of index page css */
+
+/* beginning of projects css */
+
+
+/* end of projects css */
+
