@@ -4,70 +4,94 @@ padding: 0;
 box-sizing: border-box;
 }
 /* beginning of projects css */
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
-  .portheader {
-    margin: 7%;
-    background-image: url(../images/yellow-pink-blue.jpg);
-    background-position: relative;
-    background-size: cover;
-  }
-  .portbody {
-    background-color:lightskyblue;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .portfoliogrid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 40px;
-    background-position: relative;
-    background-size: cover;
-    margin: 7% 7% 7% 7%;
-    height: 100%;
-  }
-  
-  .portfoliogrid-container > div {
-    border: 7px inset pink;
-    border-radius: 37px;
-    text-align: center;
-    grid-template-areas:
-      "image1 image2 image3 image4"
-      "image5 image6 image7 image8"
-      "image9 image10 image11 image12"
-      "text text text  text";
-  }
-  .portimg1,
-  .portimg2,
-  .portimg3,
-  .portimg4,
-  .portimg5,
-  .portimg6,
-  .portimg7,
-  .portimg8,
-  .portimg9,
-  .portimg10,
-  .portimg11,
-  .portimg12 {
+@media only screen and (min-width: 60em) {
+  /* For mobile phones: */
+  [class*="col-"] {
     width: 100%;
-    height: 100%;
-    max-width: 350px;
-    object-fit: fill;
-    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
   }
-  .portpara {
-    color: blue;
-    margin: auto;
-    width: 75%;
-    border: 17px groove blue;
-    padding: 10px;
+}
+.portheader {
+  margin: 7%;
+  background-position: relative;
+  background-size: cover;
+}
+.portheader h1{
+    font-size:  370%;
+    margin:17px 17px;
+}
+.portbody {
+  background-color:lightskyblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfoliogrid-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  background-position: relative;
+  background-size: cover;
+  margin: 7% 7% 7% 7%;
+  height: 100%;
+}
+
+.portfoliogrid-container > div {
+  border: 7px inset pink;
+  border-radius: 37px;
+  text-align: center;
+  grid-template-areas:
+    "image1 image2 image3 image4"
+    "image5 image6 image7 image8"
+    "image9 image10 image11 image12"
+    "text text text  text";
+    
+}
+.portimg{
+    transition: 0s;
+    cursor: pointer;
+}
+.portimg:hover{
+    transform: scale(1.7);
+
+
+}
+
+.portimg1,
+.portimg2,
+.portimg3,
+.portimg4,
+.portimg5,
+.portimg6,
+.portimg7,
+.portimg8,
+.portimg9,
+.portimg10,
+.portimg11,
+.portimg12 {
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  object-fit: fill;
+  border-radius: 17px;
   }
-  
-  /* end of projects css */
+
+
+.portpara {
+  color: blue;
+  margin:  20px auto;
+  width: 75%;
+  border: 17px groove blue;
+  padding: 10px;
+}
+.portvid{
+ width:87%;
+ margin:0 auto;
+ display: block;
+} 
+
+/* end of projects css */
