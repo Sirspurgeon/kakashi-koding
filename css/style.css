@@ -16,6 +16,9 @@
 
   background-position: center, top;
 }
+.h1-in {
+  text-align: center;
+}
 
 .row {
   display: flex;
